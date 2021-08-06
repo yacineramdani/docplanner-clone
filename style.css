@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+ul {
+  list-style: none;
+}
+.naav {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background: hsla(0, 0%, 100%, 0.98);
+}
+.naav a {
+  height: 5vh;
+  color: #747474;
+}
+.about-us {
+  color: #00b39b;
+}
+.docplanner-logo {
+  width: 300px;
+}
+.main-nav {
+}
+.main-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav ul a {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Arial, sans-serif;
+}
+.docplanner-logo-2,
+.making {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.docplanner-logo-2 {
+  height: 15vh;
+}
+.docplanner-logo-2 img {
+  width: 40px;
+}
+.making {
+  height: 10vh;
+  color: #00b39b;
+}
+
+.grid-11 {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+.p-left,
+.p-right {
+  width: 48%;
+}
+.grid-12 {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  justify-content: space-between;
+}
+.group,
+.person,
+.clinic {
+  width: 26px;
+  margin: 35px 0 0 30px;
+}
+.patients,
+.doctors,
+.clinics {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 50vh;
+  width: 32%;
+  color: #fff;
+}
+.patients {
+  background: #00ccb1;
+}
+.patients:hover {
+  background: #00ccb1e8;
+}
+.doctors {
+  background: #3d83df;
+}
+.doctors:hover {
+  background: #3d83dfe7;
+}
+.clinics {
+  background: #1b2734;
+}
+.clinics:hover {
+  background: #1b2734e3;
+}
+.patients h1,
+.doctors h1,
+.clinics h1 {
+  margin: 8px 0 0 30px;
+  font-size: 30px;
+  font-family: roboto, Arial, sans-serif;
+}
+.patients p,
+.doctors p,
+.clinics p {
+  margin: 9px 30px 0 30px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 25px;
+}
+.down {
+  width: 100%;
+  margin: 90px 0 0 30px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+}
+.down a {
+  color: #fff;
+  text-decoration: underline;
+}
+.down-clinics-1 {
+  width: 100%;
+  margin: 50px 0 0 30px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+}
+.down-clinics-2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  margin: 18px 0 0 30px;
+}
+.down-clinics-1 a,
+.down-clinics-2 a {
+  color: #fff;
+  text-decoration: underline;
+}
+.grid-13 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;
+  justify-content: center; */
+  width: 65%;
+  margin-bottom: 40px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.flex a svg {
+  width: 130px;
+  margin-left: 10px;
+}
+.flex a {
+  transition: all 0.2s ease 0s;
+}
+.znamy {
+  margin-top: 12px;
+}
+.gipo {
+  width: 50px;
+  margin-top: 13px;
+}
+.clinicloud {
+  width: 90px;
+  padding-right: 140px;
+  margin-top: 10px;
+}
+.tuotempo {
+  width: 130px;
+  margin-top: 22px;
+}
+.we {
+  width: 20%;
+  margin-top: 60px;
+  color: #00b39b;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 25px;
+}
+.section-2 {
+  background-color: #e0f9f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden;
+}
+.grid-21 {
+  margin-left: 260px;
+  width: 530px;
+}
+
+.left {
+  width: 400px;
+  margin-top: 190px;
+}
+.logo {
+  margin: 50px 200px 0 0;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin: 0 auto;
+}
+.leader {
+  text-align: center;
+  background: #fff;
+  padding: 10px 30px;
+  width: 50%;
+  border-radius: 4px;
+  height: 35vh;
+  font-size: 11px;
+  margin-left: 100px;
+}
+.six {
+  text-align: center;
+  background: #fff;
+  padding: 10px 30px;
+  width: 50%;
+  border-radius: 4px;
+  height: 35vh;
+  font-size: 11px;
+  margin-top: 15px;
+}
+.right-left {
+  margin-bottom: 25px;
+}
+.left h1 {
+  color: #00b39b;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 45px;
+
+  margin-top: 50px;
+}
+.left p {
+  margin-top: 25px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  line-height: 25px;
+}
+.leader img,
+.six img {
+  margin-top: 40px;
+}
+.leader h1,
+.six h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 22px;
+  color: #00b39b;
+  margin-top: 15px;
+  line-height: 31px;
+}
+.leader p,
+.six p {
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  margin-top: 100px;
+}
+.grid-31 {
+  display: grid;
+  width: 64%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.same {
+  border: 0.5px solid #e7e7e7;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 45vh;
+}
+.same:hover {
+  box-shadow: 0.5px 0.5px 30px #999;
+}
+.same img {
+  width: 100%;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom p {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #999;
+}
+.bottom button {
+  border: none;
+  outline: none;
+  background-color: #1662c6;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+button:hover {
+  background-color: #1630c6;
+}
+.top {
+  width: 450px;
+  text-align: center;
+}
+.top h1 {
+  color: #00b39b;
+  font-family: Roboto, Arial, sans-serif;
+}
+.top p {
+  margin: 40px 0;
+  line-height: 25px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  font-size: 14px;
+}
+.bottom-3 {
+  margin: 100px 0;
+}
+.bottom-3 h1 {
+  font-size: 30px;
+  color: #666;
+}
+.bottom-3 button {
+  margin-top: 25px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #5190e2;
+  color: #fff;
+  font-size: 14px;
+}
+.bottom-3 button:hover {
+  background-color: #516be2;
+}
+footer {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.5px solid #e0e0e0;
+  font-size: 12px;
+  color: #ababab;
+}
+.footer-bottom {
+  margin-top: 10px;
+  text-align: center;
+}
